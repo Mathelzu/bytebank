@@ -1,14 +1,13 @@
 package bytebankherdado;
 
-public class Funcionario {
+public abstract class Funcionario {
     private String nome;
     private String cpf;
     private double salario;
     //protected double salario;
 
-    public double getBonificacao(){
-        return this.salario * 0.05;
-    }
+    //vvv método sem corpo, não há implementação vvv
+    public abstract double getBonificacao();
 
     public String getNome() {
 
