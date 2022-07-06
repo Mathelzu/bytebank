@@ -10,10 +10,9 @@ public class TesteGerente {
         System.out.println(g1.getNome());
         System.out.println(g1.getCpf());
         System.out.println(g1.getSalario());
-        g1.setSenha(2222);
-
-        boolean autentificou = g1.autentica(2222);
-        System.out.println(autentificou);
+//        g1.setSenha(2222);
+//        boolean autentificou = g1.autentica(2222);
+//        System.out.println(autentificou);
         System.out.println(g1.getBonificacao());
     }
 }
